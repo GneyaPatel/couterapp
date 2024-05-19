@@ -1,0 +1,73 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .count {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .increment-button {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 3px 0px 0px #158d72;
+  }
+  
+  .increment-button:hover {
+    background-color: #16a085;
+  }
+  
+  .decrement-button {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 3px 0px 0px #c0392b;
+  }
+  
+  .decrement-button:hover {
+    background-color: #c0392b;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+  }
+  
